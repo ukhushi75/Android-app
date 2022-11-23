@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityactivityschedule2">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/schedule" />
+
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/select_the_day_you_come_on_campus"/>
+
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/monday"/>
+
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkBox"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="26dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="155dp"-->
+<!--        android:text="CheckBox"-->
+<!--        android:textColor="@color/black" />-->
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/time_you_want_to_go_to_campus" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/__am"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/original_location_" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/location_"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/locationicon" />
+
+    <ImageView
+    android:layout_width="360dp"
+    android:layout_height="65dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginTop="400dp"
+    android:layout_marginEnd="50dp"
+    android:layout_marginBottom="50dp"
+    android:src="@drawable/tuesday"/>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/wednesday"/>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/thursday"/>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/friday"/>
+
+    <ImageView
+        android:layout_width="488dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="650dp"
+        android:src="@drawable/next"/>
+
+
+</RelativeLayout>

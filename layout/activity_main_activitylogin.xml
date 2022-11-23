@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".applogin">
+
+
+    <ImageView
+        android:id="@+id/rydup"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/rydup" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/account" />
+
+
+    <EditText
+        android:id="@+id/passportyorkusername"
+        android:layout_width="259dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="Passport York Username"
+        android:src="@drawable/passport_york_user_name" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/password" />
+
+    <EditText
+        android:id="@+id/passportyorkpassword"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="50dp"
+        android:hint="Passport York Password"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:inputType="textPassword"
+        android:visibility="visible" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/eye_off" />
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="201dp"
+        android:background="#E31837"
+        android:src="@drawable/active"
+        android:text="LOGIN"
+        android:id="@+id/login"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="170dp"
+        android:background="@color/white"
+        android:text="sign up"
+        android:textColor="#E31837" />
+
+    <ImageView
+        android:id="@+id/bestlogo"
+        android:layout_width="100dp"
+        android:layout_height="505dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/best" />
+
+
+
+
+</RelativeLayout>

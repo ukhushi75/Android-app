@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityschedule_1">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/schedule" />
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/a" />
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/select_the_day_you_come_on_campus"/>
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/monday"/>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/tuesday"/>
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/wednesday"/>
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/thursday"/>
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/friday"/>
+
+    <ImageView
+        android:layout_width="488dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/next"/>
+
+
+</RelativeLayout>

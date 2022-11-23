@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitymessageafteruploading">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/rydup"/>
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/thank_you_for_choosing_us_"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/you_will_receive_a_notification_on_email_when_your_information_is_approved_and_verified_"/>
+    <ImageView
+        android:layout_width="488dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/okay"/>
+
+
+
+
+</RelativeLayout>
